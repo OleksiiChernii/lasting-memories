@@ -30,28 +30,89 @@
       </nav>
     </header>
     <main class="container">
-        <section class="hero">
-            <h2>making tables heroes</h2>
-            <p>Chairs, cabinets, but especially tables by Joli are durable products, designed to last and to be used intensively.</p>
-            <ul class="button__list">
-                <li><button type="button" class="button__item">about us</button></li>
-                <li><button type="button"  class="button__item">collections</button></li>
-            </ul>
-        </section>
-        <section class="collection">
-            <h2>our collections</h2>
-            <ul class="collection__list">
-                <li class="collection__item">central</li>
-                <li class="collection__item">olivo</li>
-                <li class="collection__item">morisot</li>
-                <li class="collection__item">curve</li>
-                <li class="collection__item">wire</li>
-                <li class="collection__item">marguerite</li>
-                <li class="collection__item">fizz</li>
-                <li class="collection__item">rafael</li>
-                <li class="collection__item">chagall</li>
-            </ul>
-        </section>
+      <section class="hero">
+        <h2>making tables heroes</h2>
+        <p>
+          Chairs, cabinets, but especially tables by Joli are durable products,
+          designed to last and to be used intensively.
+        </p>
+        <ul class="button__list">
+          <li><button type="button" class="button__item">about us</button></li>
+          <li>
+            <button type="button" class="button__item">collections</button>
+          </li>
+        </ul>
+      </section>
+      <section class="collection">
+        <div class="collection__wrapper">
+          <h2>our collections</h2>
+          <ul class="collection__list">
+            <li class="collection__item">central</li>
+            <li class="collection__item">olivo</li>
+            <li class="collection__item">morisot</li>
+            <li class="collection__item">curve</li>
+            <li class="collection__item">wire</li>
+            <li class="collection__item">marguerite</li>
+            <li class="collection__item">fizz</li>
+            <li class="collection__item">rafael</li>
+            <li class="collection__item">chagall</li>
+          </ul>
+        </div>
+        <ul class="collection__images">
+          <li class="collection__images__item">
+            <figure>
+              <img src="images/central.png" alt="award winter" />
+              <figcaption>central</figcaption>
+              <div class="images__desc__wrapper">
+                <p class="collections__images__desc">
+                  ready to become the centerpiece of your home
+                </p>
+                <svg width="16" height="16">
+                  <use href="./images/sprite.svg#arrow-right" />
+                </svg>
+              </div>
+            </figure>
+          </li>
+          <li class="collection__images__item">
+            <figure>
+              <img src="images/olivo.png" alt="olivo" />
+              <figcaption>olivo</figcaption>
+              <p class="collections__images__desc">
+                Bealive us, this will be a real eye-catcher
+              </p>
+            </figure>
+          </li>
+        </ul>
+        <div class="collection__pages">
+          <svg width="22" height="22">
+            <use href="images/sprite.svg#arrow-right" />
+          </svg>
+          <span>1 / 9</span>
+          <svg width="22" height="22">
+            <use href="images/sprite.svg#arrow-right" />
+          </svg>
+        </div>
+      </section>
+      <section class="dealer">
+        <h2>find a dealer</h2>
+        <div class="dealer__wrapper">
+          <p>
+            We work together with dealers in 19 countries, all over the world.
+            Find out which one is closest to you.
+          </p>
+          <input
+            type="text"
+            name="location"
+            id="location"
+            placeholder="Your location"
+          />
+          <button type="button">search</button>
+        </div>
+      </section>
+      <section class="inspire">
+        <h2>terrace <br> ceremonies & meetings</h2>
+        <button type="button">inspire me</button>
+      </section>
     </main>
     <footer class="container"></footer>
   </body>

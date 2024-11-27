@@ -8,8 +8,17 @@ h1,
 h2 {
   margin: 0;
   padding: 0;
-  
+
   font-size: 68px;
+}
+
+button{
+    cursor: pointer;
+}
+img,
+figure {
+  margin: 0;
+  padding: 0;
 }
 ul,
 li {
@@ -100,18 +109,166 @@ h1 {
   background-color: #e5e2de;
   color: #20201f;
   padding-left: 84px;
+  padding-right: 84px;
   padding-top: 110px;
-}
-.collection > h2 {
-    width: 300px;
+  padding-bottom: 54px;
+  position: relative;
 }
 
-.collection__list{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    row-gap: 8px;
-    column-gap: 28px;
-    flex-wrap: wrap;
-    width: 540px;
+.images__desc__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collection__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 33px;
+}
+.collection__wrapper h2 {
+  width: 300px;
+}
+
+.collection__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 8px;
+  column-gap: 28px;
+  flex-wrap: wrap;
+  width: 540px;
+}
+
+.collection__images {
+  margin-top: 94px;
+  margin-bottom: 104px;
+  color: #20201f;
+  font-size: 16px;
+
+  display: inline-block;
+}
+
+.collection__images__item {
+  position: relative;
+}
+
+.collection__images__item figcaption {
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.collection__images__desc {
+  margin-top: 18px;
+}
+
+.collection__images__item:last-child {
+  position: absolute;
+  top: 220px;
+  right: 0;
+}
+
+.collection__pages {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+
+  font-size: 22px;
+}
+
+.dealer {
+  padding-top: 116px;
+  padding-left: 84px;
+  padding-bottom: 200px;
+
+  color: #20201f;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
+
+  background-image: url("images/dealer.png");
+  background-repeat: no-repeat;
+  background-position: top 0 right 0;
+}
+
+.dealer h2 {
+  font-size: 68px;
+  width: 250px;
+}
+
+.dealer p {
+  font-size: 19px;
+  line-height: 33px;
+  width: 414px;
+}
+.dealer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 35px;
+}
+
+.dealer input {
+  border: 1px solid #8b8b8b;
+  border-radius: 14px;
+  padding: 18px 23px;
+  font-size: 19px;
+  font-family: "Roboto";
+  outline: none;
+}
+.dealer input:focus {
+  border-color: #8b8b8b91;
+}
+
+.dealer button {
+  padding: 13px 30px;
+  font-size: 19px;
+  color: #20201f;
+  border: 1px solid #20201f;
+  border-radius: 45px;
+  background-color: #fff;
+}
+
+.inspire {
+  height: 592px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 129px;
+
+  color: #e5e2de;
+  background-color: #20201f;
+
+  background-image: url("images/inspire1.png"), url("images/inspire2.png"),
+    url("images/inspire3.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top 0 left 84px, top 84px right 0,
+    bottom -87px right 84px;
+}
+
+.inspire button{
+    background-color: #20201f;
+    font-size: 19px;
+    padding: 13px 30px;
+    color: #e5e2de;
+    border: 1px solid #e5e2de;
+
+    border-radius: 42px;
 }
