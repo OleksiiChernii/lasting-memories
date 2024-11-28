@@ -14,6 +14,8 @@ h2 {
 
 button {
   cursor: pointer;
+  color: #20201f;
+  border: 1px solid #20201f;
   transition: transform 0.5s ease;
 }
 
@@ -304,8 +306,8 @@ h1 {
 .about button {
   padding: 13px 30px;
   background-color: #fff;
-  color: inherit;
-  border: 1px solid inherit;
+  color: #20201f;
+  border: 1px solid #20201f;
   border-radius: 42px;
   font-size: 19px;
   width: 155px;
