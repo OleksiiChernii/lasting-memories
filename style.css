@@ -102,6 +102,7 @@ h1 {
   padding: 13px 30px;
   font-size: 19px;
   background-color: #fff;
+  color: #20201f;
 }
 
 .button__item:hover {
@@ -356,6 +357,7 @@ h1 {
   border: 1px solid #20201f;
   border-radius: 42px;
   background-color: inherit;
+  color: #20201f;
 
   padding: 13px 30px;
   font-size: 19px;
@@ -414,6 +416,7 @@ h1 {
 
 .request button{
     background-color: inherit;
+    color: #20201f;
     padding: 13px 30px;
     font-size: 19px;
     font-weight: 400;
